@@ -1,0 +1,58 @@
+Finite State Automata 
+Finite state automata is also called as the finite state machines  .
+Division of finite state automata on the basis of the output :
+1> FA with output 
+2> FA wihtout output 
+
+1>These is sub divided into 2 types :
+1> Moore machines 
+2> Mealy machines 
+
+2> They are divided into 3 types :
+1> Deterministic finite state machines 
+2> Non finite state machines 
+3> Eta - Non - finite state machines 
+
+
+Determinisitc finite state automata 
+It is simplest model of computation  
+It has very limited memeory 
+
+
+Deterministic finte state machines  :
+The machines are divided into the state where each stata has the mod  of the input and the flow where would the machine move if the machine gets the expected output . 
+
+The single circle is used to show the state of the machine .
+The arrow pointing to one of the circle is called as the starting state or the intial state .
+
+A concentric circle show the end of the state or the end machine state , hence this is used to show the end of the machine output . 
+
+
+Every DFA (Determinsitic state automata) need only 5 tuples to be shown : they are :
+1> Q- > set of all states 
+2> sigma -> input for the states 
+3> q not ->start state 
+4> F -> set of final states 
+5> delta -> Transition function that maps from the Q * SIGMA -> Q 
+These are stored in a tuples.
+In a finite state machine ther can be multiple final states and NOT ONLY ONLY ONE . 
+
+The input or the sigma are usually the bit in a finite state machine . 
+
+The delta is bascially the state diagram showing when one of the state is transferred then where will the machine move . 
+The above is a basic structure of the dfa . 
+
+Deterministic finite state automata example  :
+1> to desgin a finite state machine with all the string literal . 
+
+When a expecedte out put is not recived by the machine then the state is conserved , it remian in  the same state  .
+The state where the machine is in its own state or consrerved then the state is called as the dead or the trap state . 
+
+
+The DFA is compleete when the total net computation are met and the output diragrm of the basic DFA diagram is almost the same .
+
+Those machine which reach the final states are the machines that work properly  .
+Those input where the value does not has the reuqired value and that does not meet the requeirement then those input are automaically removed from the DFA .
+
+
+
