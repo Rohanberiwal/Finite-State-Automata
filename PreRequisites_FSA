@@ -1,0 +1,31 @@
+PreRequisites 
+Symbol : a,b,c ,0,1,2,3
+Aplhabet : collection of the symbols denoted by sigma 
+String : sequence of the symbols is the string basically .
+Lnaguage :set of string is called as the language . 
+
+Some of the language defined over -> 0,1:
+L1-> set of all teh string of the length 2 -> 00,01,10,11 .
+L2-> Set of all the string of length 3 -> 000,001,010,011......
+Here the l1 and l2 are the language defined over the aplhabet 0,1 .
+
+
+The language set of the output can be a infinite set as well , 2^(infinity) -> uncountbale set . The is infinitly countale . 
+
+Some of the defined set can be uncountably infinite alos that majorly depend on the input taken,.  
+
+Powers of sigma :
+aplhabet ->0,1
+sigma^0: set of all the string of length 0 : null set 
+sigma1: set of all the string of the length 1 &0 : 0,1 ,null 
+sigma2 : set of the all the stirng with 2 
+This goes so on upto the required length : 
+..
+
+Cardinality of the powered sigma :
+NUMBER Of the element in the set recived after the po0wer generated . 
+Card n :  2^n number of the total elements .
+
+sigma star  :
+this is the union of the power of the sigma powers :
+all the union of the set of the sgman power is the sigma star bascially the universal set  .
