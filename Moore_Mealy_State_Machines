@@ -1,0 +1,28 @@
+Moore and Mealy model State Machines 
+Moore state machines :
+Mealy state machines :
+
+The difference in the two circuit is the way the output is generated.
+The output generation of the twop machines sometimes does not depend on the input taken and this is called Moore state machines . 
+
+In the moore state machines , the function output is the the function of the input state only . 
+
+The output of the moore state depend only on the state of the machine .
+
+
+Mealy state machines : The out put of this machine depend on the present state of the machine and also on th input as well . 
+The output function is : input funvtion + state machine  function 
+
+
+Next state decoder is a important logic diagram used to show what will be the combinational output . 
+
+
+Inside the present state the state of the machine is stored and hence the output is depened on the present state of the machine . The next state decoder is specifically the moore state finite machine .
+
+Mealy State machines :
+The output is the function of the present state and the the inputy state  .
+The major change in this is that the output diagram or the next state decordee has a extra ouput from the input to the memedory and is used to stroe the present state and the present output . 
+
+
+The  mealy and the moore state machines are interconvertiable so they can be cross converted from  each other .
+In this sequernce and the pattern detector is used specially for the pattern finding to find out either the machines is a moore or a mrealy state machines .
