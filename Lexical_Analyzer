@@ -1,0 +1,65 @@
+Lexical Anaylzer
+The lexical analyzer produces a stream of token for a given / specific algebric synatx ,and uses the concept of the Regexs or the regualr grammer , for the token recoginisation .
+It reads the high level language code line by line and gives out the tokens as the output .
+
+The token may be a identifier , operator or maybe a constant or the any fixed value in the source code , this may also be the keywords , literals  , punctutors and some of the special characters .
+
+
+In the anaylzer there are two phases  :
+1>Scanning -> lexems are given to this and here the non tocken are eliminated 
+2>Analysis -> the actual compuation , that produes the tokens of the lexems . 
+
+Example of the tokizing using the lexical Anaylzer  :
+
+C-token  :
+Taking the example of this as a keyword if  :
+Now if is a keyword in the c lanaguge , also for the recoginsation of the token in a lexical anyalizer always requires a finite state machines .  
+
+->A->B->C(final state) .
+
+the identification of the token of a Interger type  :
+1>First state  -> second state -> third or maybe the final state .  
+first ->second(reuqire the iden of the operation)
+second -> third need the 0-9 integer identification .
+
+Also the first starting token for a algebric exp cannto be a operation .
+
+
+For a simple lexical anaylizer of a integer , only and only one finite state machine is needed and there is no need for the multiple finite state machines . 
+
+Inorder to have a link between the 3-4 states or the token identifier what we can do is we  can define the new state that links the 3 .  
+
+Now if we link the three , we can get the non deterministic finite state automata , which can never be achived  , this is just theorical  , not fesiable to implement .
+
+for the impelmentation of a system , or a design there has to be dfa defined .
+
+In a determinsitic state automata there is  cycle that has ending on a final state  .
+
+The DFA is done in the analyzing part of the lexical interface  . 
+Lexems  -> Anaylzing  -> outputs .
+
+
+There has to be the procees conversion of the NFA->DFA->mDFA .
+
+
+eXAMPLE :
+int x/*this is comment*/y after the compliation 
+int x y ; is formed , a whitespace is made . 
+
+The lexical part of the complier does the macro exapnsion of the HLL code 
+example 
+macro // define maxInt 90000 ;
+maxInt eveywehre in the c code is replaced with the 90000 
+
+
+The parsing of the token is done by the syntax anaylizer and then the syntax anyaliseer maps the things to the synatx table . 
+
+
+Lexical tockenization ->
+Does the tockenization of all the thing in in the code  .
+
+Lexems are similar to the word , but as a whole group they convey the meaning of the sentance .  The regex is the thing that helps the lexical anaylizer ot make the identifications of the lexems .
+
+
+A syntax tre for the synatx anayzler is made in by while the anaylis , nowe this is mapped or enterd into the syntax table .  
+
