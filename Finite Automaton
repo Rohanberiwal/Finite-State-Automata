@@ -1,0 +1,74 @@
+Theory of Computation  
+1.Computability theory 
+2.Complexity theory 
+
+Models of computation 
+
+State diagrams  : These are the digrams that is the combination of the circles , lines and several other annotation  .
+
+
+The circles in the state diagrasm are called as the state and the arrows or the lines with the arrows are called as the Transitons .
+
+The start state is represented by the ->0 .
+The accept state are the concetrix circles . 
+The accept state is the one that means the diagram / state of that machine is terminated  . 
+The number following the arraw on the state make the use of the accept and the reject .
+
+The output of the state diagrams are the binary numbers , that tells the state has terminated or not .The descion in the state machines are the binary descisions. 
+The binary number recived as the output , if that number does not reaches the final state then the state is not a accpetd state in turn the state is a rejected state .
+
+The output for the accepted state are made on the basis of some of the constraint called as the Language of the machine.
+Example to this is : 
+A state diagram would accept the string that has the substring of 11. 
+The set of the input wiht the substring is the name of 11 .
+
+The notaiton that the langaage of the machine M1 is given as : A= L(M1) .
+
+A formal context to the finite aumotata :
+Formally the finite automata is 5 - tuple based , that is Q , sigma , theta ,  qnot , F:
+
+Q-> finite set of states . 
+sigma : finite set of aphabelt symbols.
+delta : This is called as the transtion state , that tells how the machine moves from state to the states. 
+delta :  Q * SIGMA -> Q.(Function notation) . 
+
+The output of the delta is alwyas a state .Since the delta is state function .
+
+reading of the delta function  : delta(q,a) = r 
+the above means that the function moves from the state q to r using the binary bit of a that could be either 0 or 1 . 
+
+strings  and Languages :
+A string is a finite sequence of symbols in the sigma . 
+A langauge is a  set of strings (that could be finte or may be infinite) .
+
+The inifinte string is sort of exception , that wont be mentioned in the state diagram .
+
+The empty string is a string of lenght 0 .
+The empty langauage is a set of no string  .
+
+The singleton string cannot make a empty langauage , the single ton string would rather make a lanaguage of single langugae . 
+
+M accpets a string named w = w1 ,w2,w3 ... wn each wi that belong to sigma if there is a sequence of states rnot , r1, r2 ... that belongs to Q.
+
+Every machine recognises some languages , either one or many but one is the lower bound  .
+
+What is a regular Language  ? 
+The one expression that is recognised by finite automation   .
+If a language is recognised by some automaton then the langugae is calledas the regular language  .
+
+In the building of the automaton then there has to be  a state for every possiblily .
+Some of the expression  like the a set c with tthe string that has equal number  of zeros and eqaul number of one is like a non regualr expression  .
+
+Goal of the finite automaton si to understand the regular languages.
+
+Operations on languages :
+Note : the ouptut of this is always a language . 
+
+
+Union of two language : The output is a language that ahs the all the string that are recognied by the two language  .
+
+Concatneation operation  : Stick the two language together to make the concetation of the string .symbol of the concetnation is the circle .
+
+Star lang :  In this there is concetantion operation of of A set with A ONLY but in a indefinate manner or in the indefinate time .
+The speciality of the star language is that we can stick zero language together and then we get a null language . 
+The empty string is alwasy a langauge of the star language .
