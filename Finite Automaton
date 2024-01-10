@@ -14,8 +14,7 @@ The accept state are the concetrix circles .
 The accept state is the one that means the diagram / state of that machine is terminated  . 
 The number following the arraw on the state make the use of the accept and the reject .
 
-The output of the state diagrams are the binary numbers , that tells the state has terminated or not .The descion in the state machines are the binary descisions. 
-The binary number recived as the output , if that number does not reaches the final state then the state is not a accpetd state in turn the state is a rejected state .
+The output of the state diagrams are the binary numbers , that tells the state has terminated or not .The descion in the state machines are the binary descisions. The binary number recived as the output , if that number does not reaches the final state then the state is not a accpetd state in turn the state is a rejected state .
 
 The output for the accepted state are made on the basis of some of the constraint called as the Language of the machine.
 Example to this is : 
@@ -69,6 +68,9 @@ Union of two language : The output is a language that ahs the all the string tha
 
 Concatneation operation  : Stick the two language together to make the concetation of the string .symbol of the concetnation is the circle .
 
-Star lang :  In this there is concetantion operation of of A set with A ONLY but in a indefinate manner or in the indefinate time .
-The speciality of the star language is that we can stick zero language together and then we get a null language . 
-The empty string is alwasy a langauge of the star language .
+Star lang :  In this there is concetantion operation of of A set with A ONLY but in a indefinate manner or in the indefinate time .The speciality of the star language is that we can stick zero language together and then we get a null language . The empty string is alwasy a langauge of the star language .
+
+closure properties of regular languages 
+Theorem :  If A1 , A2 are regular langauge then the uniom of the two regular languages are also regular . This is called as the clousure under the union operation .
+
+Professional/Formal  proof can be seen in the lecture . 
