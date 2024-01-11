@@ -1,4 +1,5 @@
 Lexical Anaylzer
+
 The lexical analyzer produces a stream of token for a given / specific algebric synatx ,and uses the concept of the Regexs or the regualr grammer , for the token recoginisation .
 It reads the high level language code line by line and gives out the tokens as the output .
 
